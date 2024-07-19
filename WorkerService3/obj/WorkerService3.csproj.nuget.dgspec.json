@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/raphael.fulgencio/learning/code_examples/WorkerService3/WorkerService3/WorkerService3.csproj": {}
+  },
+  "projects": {
+    "/Users/raphael.fulgencio/learning/code_examples/WorkerService3/WorkerService3/WorkerService3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raphael.fulgencio/learning/code_examples/WorkerService3/WorkerService3/WorkerService3.csproj",
+        "projectName": "WorkerService3",
+        "projectPath": "/Users/raphael.fulgencio/learning/code_examples/WorkerService3/WorkerService3/WorkerService3.csproj",
+        "packagesPath": "/Users/raphael.fulgencio/.nuget/packages/",
+        "outputPath": "/Users/raphael.fulgencio/learning/code_examples/WorkerService3/WorkerService3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/raphael.fulgencio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
